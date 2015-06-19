@@ -16,6 +16,7 @@ gem "middleman", '~> 3.0'
 gem "middleman-alias", github: "wagenet/middleman-alias", branch: "keep-search-and-hash"
 gem "middleman-blog", "~> 3.0"
 gem "neat"
+gem "normalize-scss"
 gem "rack"
 gem "rails-assets-js-md5"
 gem "rails-assets-moment"
