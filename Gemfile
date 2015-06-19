@@ -1,25 +1,28 @@
 source 'https://rubygems.org'
 source 'https://rails-assets.org'
 
-gem "redcarpet"
 gem "activesupport"
-gem "highline"
-gem "rake"
-gem "coderay", :git => "git://github.com/dgeb/coderay.git", :branch => "handlebars"
-gem "middleman", '~> 3.0'
-gem "middleman-blog", "~> 3.0"
-gem "thin"
-gem "rack"
-gem "listen"
+gem "bourbon"
+gem "neat"
 gem "builder"
-gem "middleman-alias", github: "wagenet/middleman-alias", branch: "keep-search-and-hash"
+gem "coderay", :git => "git://github.com/dgeb/coderay.git", :branch => "handlebars"
 gem "ember-middleman"
+gem "faraday"
+gem "geocoder"
+gem "gmaps4rails"
+gem "highline"
+gem "listen"
+gem "middleman", '~> 3.0'
+gem "middleman-alias", github: "wagenet/middleman-alias", branch: "keep-search-and-hash"
+gem "middleman-blog", "~> 3.0"
+gem "neat"
+gem "rack"
 gem "rails-assets-js-md5"
 gem "rails-assets-moment"
+gem "rake"
+gem "redcarpet"
+gem "thin"
 gem "underscore-rails"
-gem "gmaps4rails"
-gem "geocoder"
-gem "faraday"
 
 group :development, :test do
   gem 'pry'
